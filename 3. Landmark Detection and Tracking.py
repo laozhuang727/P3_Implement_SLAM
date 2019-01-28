@@ -494,7 +494,7 @@ test_data2 = [[[[0, 26.543274387283322, -6.262538160312672], [3, 9.9373968257997
 
 ### Uncomment the following three lines for test case 2 and compare to the values above ###
 
-mu_2 = slam(test_data2, 8, 5, 100.0, 3.0, 3.0)
-poses, landmarks = get_poses_landmarks(mu_2, 8)
+mu_2 = slam(test_data2, 13, 5, 100.0, 3.0, 3.0)
+poses, landmarks = get_poses_landmarks(mu_2, 13)
 print_all(poses, landmarks)
 
